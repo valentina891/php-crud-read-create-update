@@ -1,6 +1,11 @@
 <?php
 
 $servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "db_hotel";
+$username = "username";
+$password = "password";
+$dbname = "dbname";
+
+$host = "server_host";
+$folder = 'dir/progetto';
+
+$basepath = $host.$folder;
