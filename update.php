@@ -7,15 +7,15 @@ include __DIR__ .'/partials/update/server.php';
     <form action="partials/update/server-edit.php" method="post">
         <div class="form-group">
             <label for="roomNumber">Numero della stanza</label>
-            <input type="text" class="form-control" name="roomNumber" value="<?php echo $row['room_number']; ?>">
+            <input type="number" class="form-control" name="roomNumber" value="<?php echo $row['room_number']; ?>">
         </div>
         <div class="form-group">
             <label for="floor">Floor</label>
-            <input type="text" class="form-control" name="floor" value="<?php echo $row['floor']; ?>">
+            <input type="number" class="form-control" name="floor" value="<?php echo $row['floor']; ?>">
         </div>
         <div class="form-group">
             <label for="beds">Numero di letti</label>
-            <input type="text" class="form-control" name="beds" value="<?php echo $row['beds']; ?>">
+            <input type="number" class="form-control" name="beds" value="<?php echo $row['beds']; ?>">
         </div>
         <div class="form-group">
             <input type="hidden" class="form-control" name="id" value="<?php echo $row['id']; ?>">
