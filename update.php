@@ -4,7 +4,7 @@ include __DIR__ .'/partials/update/server.php';
 ?>
 
 <div class="container p-3">
-    <form action="" method="post">
+    <form action="partials/update/server-edit.php" method="post">
         <div class="form-group">
             <label for="roomNumber">Numero della stanza</label>
             <input type="text" class="form-control" name="roomNumber" value="<?php echo $row['room_number']; ?>">
@@ -16,6 +16,9 @@ include __DIR__ .'/partials/update/server.php';
         <div class="form-group">
             <label for="beds">Numero di letti</label>
             <input type="text" class="form-control" name="beds" value="<?php echo $row['beds']; ?>">
+        </div>
+        <div class="form-group">
+            <input type="hidden" class="form-control" name="id" value="<?php echo $row['id']; ?>">
         </div>
         <div class="form-group">
             <input type="submit" class="form-control bg-warning" value="Modifica">
