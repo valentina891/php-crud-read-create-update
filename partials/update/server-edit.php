@@ -20,3 +20,6 @@ if ($stmt && $stmt->affected_rows >0) {
 } else {
     die('errore, dato non valido');
 }
+
+$stmt->close();
+$conn->close();

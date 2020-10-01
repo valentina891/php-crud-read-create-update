@@ -14,10 +14,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active ">
-                            <a class="nav-link" href="index-php.php">Stanze</a>
-                        </li>
-                    </ul>
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link" href="index-php.php">Visualizza Stanze</a>
+                        <a class="nav-link" href="create.php">Inserisci Nuova Stanza</a>
+                    </div>
                 </div>
             </nav>

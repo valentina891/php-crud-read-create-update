@@ -18,4 +18,5 @@ if ($stmt && $stmt->affected_rows > 0) {
     echo "non ho cancellato";
 }
 
+$stmt->close();
 $conn->close();
